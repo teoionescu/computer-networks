@@ -1,0 +1,166 @@
+Attaching to tema2_mid1_1
+[36mmid1_1  |[0m Begin emission:
+[36mmid1_1  |[0m tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+[36mmid1_1  |[0m listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+[36mmid1_1  |[0m ..IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [S], seq 100, win 8192, length 0
+[36mmid1_1  |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [S.], seq 2432153651, ack 101, win 29200, options [mss 1460], length 0
+[36mmid1_1  |[0m Finished sending 1 packets.
+[36mmid1_1  |[0m *
+[36mmid1_1  |[0m Received 3 packets, got 1 answers, remaining 0 packets
+[36mmid1_1  |[0m Received SYN_ACK
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [.], ack 2432153652, win 8192, length 0
+[36mmid1_1  |[0m .
+[36mmid1_1  |[0m Sent 1 packets.
+[36mmid1_1  |[0m Sent ACK
+[36mmid1_1  |[0m {'Mood': 25, 'MSS': 2, 'UTO': 28, 'SAck': 5, 'EOL': 0, 'WScale': 3, 'TFO': 34, 'AltChkSumOpt': 15, 'Timestamp': 8, 'NOP': 1, 'AltChkSum': 14, 'SAckOK': 4}
+[36mmid1_1  |[0m ###[ IP ]### 
+[36mmid1_1  |[0m   version   = 4
+[36mmid1_1  |[0m   ihl       = None
+[36mmid1_1  |[0m   tos       = 0x7b
+[36mmid1_1  |[0m   len       = None
+[36mmid1_1  |[0m   id        = 1
+[36mmid1_1  |[0m   flags     = 
+[36mmid1_1  |[0m   frag      = 0
+[36mmid1_1  |[0m   ttl       = 64
+[36mmid1_1  |[0m   proto     = hopopt
+[36mmid1_1  |[0m   chksum    = None
+[36mmid1_1  |[0m   src       = 198.13.0.15
+[36mmid1_1  |[0m   dst       = 198.13.0.14
+[36mmid1_1  |[0m   \options   \
+[36mmid1_1  |[0m 
+[36mmid1_1  |[0m Begin emission:
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 101:102, ack 2432153652, win 8192, length 1
+[36mmid1_1  |[0m Finished sending 1 packets.
+[36mmid1_1  |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 102, win 29200, length 0
+[36mmid1_1  |[0m *
+[36mmid1_1  |[0m Received 1 packets, got 1 answers, remaining 0 packets
+[36mmid1_1  |[0m ###[ IP ]### 
+[36mmid1_1  |[0m   version   = 4
+[36mmid1_1  |[0m   ihl       = 5
+[36mmid1_1  |[0m   tos       = 0x0
+[36mmid1_1  |[0m   len       = 40
+[36mmid1_1  |[0m   id        = 49648
+[36mmid1_1  |[0m   flags     = DF
+[36mmid1_1  |[0m   frag      = 0
+[36mmid1_1  |[0m   ttl       = 64
+[36mmid1_1  |[0m   proto     = tcp
+[36mmid1_1  |[0m   chksum    = 0xeca7
+[36mmid1_1  |[0m   src       = 198.13.0.14
+[36mmid1_1  |[0m   dst       = 198.13.0.15
+[36mmid1_1  |[0m   \options   \
+[36mmid1_1  |[0m ###[ TCP ]### 
+[36mmid1_1  |[0m      sport     = webmin
+[36mmid1_1  |[0m      dport     = 54321
+[36mmid1_1  |[0m      seq       = 2432153652
+[36mmid1_1  |[0m      ack       = 102
+[36mmid1_1  |[0m      dataofs   = 5
+[36mmid1_1  |[0m      reserved  = 0
+[36mmid1_1  |[0m      flags     = A
+[36mmid1_1  |[0m      window    = 29200
+[36mmid1_1  |[0m      chksum    = 0x8c52
+[36mmid1_1  |[0m      urgptr    = 0
+[36mmid1_1  |[0m      options   = []
+[36mmid1_1  |[0m 
+[36mmid1_1  |[0m Begin emission:
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 102:103, ack 2432153652, win 8192, length 1
+[36mmid1_1  |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 103, win 29200, length 0
+[36mmid1_1  |[0m Finished sending 1 packets.
+[36mmid1_1  |[0m *
+[36mmid1_1  |[0m Received 1 packets, got 1 answers, remaining 0 packets
+[36mmid1_1  |[0m ###[ IP ]### 
+[36mmid1_1  |[0m   version   = 4
+[36mmid1_1  |[0m   ihl       = 5
+[36mmid1_1  |[0m   tos       = 0x0
+[36mmid1_1  |[0m   len       = 40
+[36mmid1_1  |[0m   id        = 49649
+[36mmid1_1  |[0m   flags     = DF
+[36mmid1_1  |[0m   frag      = 0
+[36mmid1_1  |[0m   ttl       = 64
+[36mmid1_1  |[0m   proto     = tcp
+[36mmid1_1  |[0m   chksum    = 0xeca6
+[36mmid1_1  |[0m   src       = 198.13.0.14
+[36mmid1_1  |[0m   dst       = 198.13.0.15
+[36mmid1_1  |[0m   \options   \
+[36mmid1_1  |[0m ###[ TCP ]### 
+[36mmid1_1  |[0m      sport     = webmin
+[36mmid1_1  |[0m      dport     = 54321
+[36mmid1_1  |[0m      seq       = 2432153652
+[36mmid1_1  |[0m      ack       = 103
+[36mmid1_1  |[0m      dataofs   = 5
+[36mmid1_1  |[0m      reserved  = 0
+[36mmid1_1  |[0m      flags     = A
+[36mmid1_1  |[0m      window    = 29200
+[36mmid1_1  |[0m      chksum    = 0x8c52
+[36mmid1_1  |[0m      urgptr    = 0
+[36mmid1_1  |[0m      options   = []
+[36mmid1_1  |[0m 
+[36mmid1_1  |[0m Begin emission:
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 103:104, ack 2432153652, win 8192, length 1
+[36mmid1_1  |[0m Finished sending 1 packets.
+[36mmid1_1  |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 104, win 29200, length 0
+[36mmid1_1  |[0m *
+[36mmid1_1  |[0m Received 1 packets, got 1 answers, remaining 0 packets
+[36mmid1_1  |[0m ###[ IP ]### 
+[36mmid1_1  |[0m   version   = 4
+[36mmid1_1  |[0m   ihl       = 5
+[36mmid1_1  |[0m   tos       = 0x0
+[36mmid1_1  |[0m   len       = 40
+[36mmid1_1  |[0m   id        = 49650
+[36mmid1_1  |[0m   flags     = DF
+[36mmid1_1  |[0m   frag      = 0
+[36mmid1_1  |[0m   ttl       = 64
+[36mmid1_1  |[0m   proto     = tcp
+[36mmid1_1  |[0m   chksum    = 0xeca5
+[36mmid1_1  |[0m   src       = 198.13.0.14
+[36mmid1_1  |[0m   dst       = 198.13.0.15
+[36mmid1_1  |[0m   \options   \
+[36mmid1_1  |[0m ###[ TCP ]### 
+[36mmid1_1  |[0m      sport     = webmin
+[36mmid1_1  |[0m      dport     = 54321
+[36mmid1_1  |[0m      seq       = 2432153652
+[36mmid1_1  |[0m      ack       = 104
+[36mmid1_1  |[0m      dataofs   = 5
+[36mmid1_1  |[0m      reserved  = 0
+[36mmid1_1  |[0m      flags     = A
+[36mmid1_1  |[0m      window    = 29200
+[36mmid1_1  |[0m      chksum    = 0x8c52
+[36mmid1_1  |[0m      urgptr    = 0
+[36mmid1_1  |[0m      options   = []
+[36mmid1_1  |[0m 
+[36mmid1_1  |[0m Begin emission:
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 104:107, ack 2432153652, win 8192, length 3
+[36mmid1_1  |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 107, win 29200, length 0
+[36mmid1_1  |[0m Finished sending 1 packets.
+[36mmid1_1  |[0m *
+[36mmid1_1  |[0m Received 1 packets, got 1 answers, remaining 0 packets
+[36mmid1_1  |[0m ###[ IP ]### 
+[36mmid1_1  |[0m   version   = 4
+[36mmid1_1  |[0m   ihl       = 5
+[36mmid1_1  |[0m   tos       = 0x0
+[36mmid1_1  |[0m   len       = 40
+[36mmid1_1  |[0m   id        = 49651
+[36mmid1_1  |[0m   flags     = DF
+[36mmid1_1  |[0m   frag      = 0
+[36mmid1_1  |[0m   ttl       = 64
+[36mmid1_1  |[0m   proto     = tcp
+[36mmid1_1  |[0m   chksum    = 0xeca4
+[36mmid1_1  |[0m   src       = 198.13.0.14
+[36mmid1_1  |[0m   dst       = 198.13.0.15
+[36mmid1_1  |[0m   \options   \
+[36mmid1_1  |[0m ###[ TCP ]### 
+[36mmid1_1  |[0m      sport     = webmin
+[36mmid1_1  |[0m      dport     = 54321
+[36mmid1_1  |[0m      seq       = 2432153652
+[36mmid1_1  |[0m      ack       = 107
+[36mmid1_1  |[0m      dataofs   = 5
+[36mmid1_1  |[0m      reserved  = 0
+[36mmid1_1  |[0m      flags     = A
+[36mmid1_1  |[0m      window    = 29200
+[36mmid1_1  |[0m      chksum    = 0x8c52
+[36mmid1_1  |[0m      urgptr    = 0
+[36mmid1_1  |[0m      options   = []
+[36mmid1_1  |[0m 
+[36mmid1_1  |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [R], seq 105, win 8192, length 0
+[36mmid1_1  |[0m .
+[36mmid1_1  |[0m Sent 1 packets.
+[36mmid1_1  |[0m Sent RST

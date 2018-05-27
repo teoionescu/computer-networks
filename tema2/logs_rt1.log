@@ -1,0 +1,21 @@
+Attaching to tema2_rt1_1
+[36mrt1_1   |[0m [LINE:14]# INFO     [2018-05-27 21:47:50,225]  Serverul a pornit pe adresa 198.13.0.14 si portul 10000
+[36mrt1_1   |[0m [LINE:18]# INFO     [2018-05-27 21:47:50,226]  Asteptam conexiune...
+[36mrt1_1   |[0m [LINE:20]# INFO     [2018-05-27 21:47:51,087]  Handshake cu ('198.13.0.15', 54321)
+[36mrt1_1   |[0m tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+[36mrt1_1   |[0m listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+[36mrt1_1   |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 101:102, ack 2432153652, win 8192, length 1
+[36mrt1_1   |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 102, win 29200, length 0
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,209]  Content primit: "A"
+[36mrt1_1   |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 102:103, ack 2432153652, win 8192, length 1
+[36mrt1_1   |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 103, win 29200, length 0
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,349]  Content primit: "B"
+[36mrt1_1   |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 103:104, ack 2432153652, win 8192, length 1
+[36mrt1_1   |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 104, win 29200, length 0
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,511]  Content primit: "C"
+[36mrt1_1   |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [P.EW], seq 104:107, ack 2432153652, win 8192, length 3
+[36mrt1_1   |[0m IP 198.13.0.14.10000 > 198.13.0.15.54321: Flags [.], ack 107, win 29200, length 0
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,648]  Content primit: "D"
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,649]  Content primit: "E"
+[36mrt1_1   |[0m [LINE:24]# INFO     [2018-05-27 21:47:51,649]  Content primit: "F"
+[36mrt1_1   |[0m IP 198.13.0.15.54321 > 198.13.0.14.10000: Flags [R], seq 105, win 8192, length 0
